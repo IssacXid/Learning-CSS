@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(to right, rgb(187, 240, 217),rgba(234, 242, 191,1));
+  /*text manipulations which does not depends on the font.*/
+  text-align:justify;
+  text-transform:none;
+  /*text manipulations which depends on the font.*/
+  /* font-style: italic; */
+  font-size: 1.05em;
+  font-weight:normal;
+  font-style: normal;
+
+  font-family:sans-serif;
+}
+#title{
+  color: rgb(43, 101, 171);
+}
+#service-image{
+  height: 400px;
+  width: 70%;
+  /* background-image: url("../img/island.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(217, 270, 247); */
+  background: radial-gradient(circle, red 20%, blue 30%, green 60%);
+}
+#aboutus-img{
+  height:250px;
+  width: auto;
+  padding:5px;
+  border: 4px solid rgb(97, 150, 127);
+  margin: 2px 15px;
+  float: right;
+}
+.link{
+  text-decoration: underline;
+}
+.subtitle{
+  color: rgb(77, 136, 209);
+}
+.table-info{
+  border-collapse: collapse;
+}
