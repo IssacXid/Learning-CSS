@@ -2,7 +2,7 @@
 
 This is my first attempt to make a static site using CSS and HTML.
 
-#URL: https://issacxid.github.io/Learning-CSS/
+# URL: https://issacxid.github.io/Learning-CSS/
 
 ## Reference
 
