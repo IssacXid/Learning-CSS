@@ -1,4 +1,4 @@
-body{
+ body{
   background: linear-gradient(to right, rgb(187, 240, 217),rgba(234, 242, 191,1));
   /*text manipulations which does not depends on the font.*/
   text-align:justify;
@@ -40,4 +40,38 @@ body{
 }
 .table-info{
   border-collapse: collapse;
+}
+@media (max-width:768px){
+  body{
+    font-size:1rem;
+    overflow-x:scroll;
+  }
+  #aboutus-img{
+    float:none;
+    display:block;
+    width:97%;
+    margin:10px 3% 10px 0;
+    height:auto;
+    min-width:250px;
+  }
+  #service-image{
+    width:100%;
+    margin:10px 1% 10px 0;
+  }
+  .table{
+    display:flex;
+    justify-content: center;
+  }
+  table{
+    width:75%;
+    border-collapse: collapse;
+    margin:20px 0;
+  }
+  td{
+    text-align: center;
+    padding:5px 10px;
+  }
+  input{
+    display:block;
+  }
 }
